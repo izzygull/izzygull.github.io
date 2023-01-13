@@ -1,0 +1,14 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Tinos";
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-top: 4vh;
+	padding: 0 50px;
+}
+
+h1 {
+	font-size: 55px;
+	margin-bottom: 0;
+}
