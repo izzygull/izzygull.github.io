@@ -2,20 +2,39 @@
 
 
 body {
-	display: flex;
+	display: grid;
 	flex-wrap: wrap;
 	font-family: "Tinos";
-	justify-content: center;
-	margin-bottom: 50px;
 	margin-top: 4vh;
-	padding: 0 50px;
+	background-color: darkslateblue;
+}
+
+body, html {
+	height: 100%;
 }
 
 h1 {
 	font-size: 55px;
 	margin-bottom: 0;
+	justify-self: center;
 }
 
+div {
+	border-radius: 10px;
+	border-color: black;
+}
+
+#nametag {
+	display: inline;
+	padding-top: 5px;
+}
+
+#wrapper {
+	display: grid;
+	width: 90%;
+	background-color: lavender;
+	justify-self: center;
+}
 
 #body-text {
     padding-top: 100px;
@@ -47,3 +66,48 @@ h1 {
 
 }
 
+#header {
+	text-align: center;
+	z-index:100;
+}
+
+#navbar {
+	display: inline;
+	list-style-type: disc;
+	justify-content: center;
+	padding: 0%;
+}
+
+#navitem {
+	display: inline;
+	padding: 5px;
+}
+
+#section {
+	background-color: beige;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#sectiontext {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#buttonhome {
+	display: flex;
+	justify-content: center;
+	position: absolute; 
+	bottom: 5px;
+	text-align: center;
+	width: 100%;
+}
+
+#upbutton {
+	display: inherit;
+}
