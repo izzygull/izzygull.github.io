@@ -11,6 +11,7 @@ body {
 
 body, html {
 	height: 100%;
+	padding-bottom: 2vh;
 }
 
 h1 {
@@ -39,7 +40,6 @@ div {
 	background-color: lavender;
 	justify-self: center;
 	border: 1px solid black;
-
 }
 
 #body-text {
